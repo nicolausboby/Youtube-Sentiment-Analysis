@@ -1,0 +1,50 @@
+Video ID,Title,Comment
+CD8s0qwjpoQ,Hacking Livestream #64: async/await in Python 3,"""And ... I'm running out of colors ... "" :-))) https://youtu.be/CD8s0qwjpoQ?t=1786"
+CD8s0qwjpoQ,Hacking Livestream #64: async/await in Python 3,TIL: for/else Nice
+CD8s0qwjpoQ,Hacking Livestream #64: async/await in Python 3,"You weren’t able to figure it out today, but I enjoyed the journey a lot. Keep up the great work."
+CD8s0qwjpoQ,Hacking Livestream #64: async/await in Python 3,Start @ 3:35
+CD8s0qwjpoQ,Hacking Livestream #64: async/await in Python 3,"AFAIK await  is still just like yield from and coroutines are just like generators, they just made yield from only compatible with generators and await - with coroutines.
+Seconding David Beazley recommendation, his presentations are amazing. He shows how to run a coroutine at https://youtu.be/E-1Y4kSsAFc?t=774 Other presentations (some are about async) are at dabeaz.com/talks.html
+Also, if you want to read sources of an async library, I'd recommend David's Curio or more production-ready and less experimental Trio. Asyncio creates too many abstractions and entities to be easily comprehended."
+DYhAoM1Kny0,Asynchronous input with Python and Asyncio,good job Hoff i like the Asyncio video
+DYhAoM1Kny0,Asynchronous input with Python and Asyncio,"I came here after watching a video on Hall PC, the Windows NT and OS/2 Shoutout from 1993 and they described this as being a feature in Windows 3.11 NT and OS/2 that year. Before they had this you usually had to wait until after an hour glass ended before you could use your other application you had opened.  I didn't think it actually had other applications other than in system programming. Very interesting stuff, btw I really don't feel confident in writing my own operating system."
+DYhAoM1Kny0,Asynchronous input with Python and Asyncio,"Is there a previous video, or are you just referencing offscreen stuff at the beginning?"
+GMewz5Pf2lU,In Python Threads != Async,Skip first 20 minutes
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",2:05:00
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)","Does anyone know how to list the servers on which the bot is connected? I need to perform a different procedure for each server connected, but I found the documentation very confusing."
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",using mongodb in this one was hella easier ;) but nice one mate
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",this is terrible and why do you use a old version of the libary that is unsupported and depricated
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",are you using discord.py rewrite
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)","Hey, dude can U make a vid explains how to shard discord.py please"
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)","Gotta do more of this stuff man. It's showing me important things like connecting to a SQL server in my code. Keep 'em coming. I'm a Sys Admin right now trying to learn some code to maybe start up a side-gig for making small apps and bots for servers, so videos like this that I can learn from are essential."
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",good video
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",you have a lot of interesting projects. Keep the vids coming mate!
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",i dont understand anything<3
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",What do you use for that dog?
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",what do you host your code on to keep it running
+L10FeA84EgE,"Live Coding: Advanced Python Discord Bots (Music, Database, RPG)",thanks this motivates me to finish my discord bot
+kI-KpfQFgug,How Do Python Coroutines Work?,Skip ahead to 6:09
+2ukHDGLr9SI,Getting started with event loops: the magic of select,can you share source codes ?
+2ukHDGLr9SI,Getting started with event loops: the magic of select,what about server.py ?
+2ukHDGLr9SI,Getting started with event loops: the magic of select,Thank you so much for the video! What terminal are you using? It looks so easy to change the size of the window
+2ukHDGLr9SI,Getting started with event loops: the magic of select,need socket.setblocking(False) ?
+2ukHDGLr9SI,Getting started with event loops: the magic of select,"Thank you for the tutorial. I am having some difficulty in getting the code to work.
+
+Issue:
+ File ""ChatClient.py"", line 32, in chat_client
+    ready_to_read,_,_ = select.select(socket_list,[],[],0)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+Code:
+socket_list = [sys.stdin, s]
+ready_to_read,_,_ = select.select(socket_list,[],[],0)
+
+The code does not seem to appreciate ""sys.stdin"" being in the list. What might I be doing wrong based on this snippet? I am using Python 3.6.5."
+2ukHDGLr9SI,Getting started with event loops: the magic of select,Would love to know more about this. Please explain more thoroughly.. Thanks!!
+2ukHDGLr9SI,Getting started with event loops: the magic of select,"are you just trying to show us how you program? cause this doesn't feel like a lesson. maybe I'm wrong and it isn't one, but if it is, please do explain what you're doing."
+2ukHDGLr9SI,Getting started with event loops: the magic of select,this doesn't work on Mac OS
+NOprCnnjHm0,回呼函式 Callbacks、Promises 物件、Async/Await 非同步流程控制 - 彭彭直播 at 2019/04/07,"謝謝老師, 幫助很大"
+NOprCnnjHm0,回呼函式 Callbacks、Promises 物件、Async/Await 非同步流程控制 - 彭彭直播 at 2019/04/07,10:50 開始 感謝分享~
+NOprCnnjHm0,回呼函式 Callbacks、Promises 物件、Async/Await 非同步流程控制 - 彭彭直播 at 2019/04/07,我在看漫畫的時候偶爾會去看人家的原始碼~我想請問一下~這個一段是什麼意思?    有違規可刪除
+YRLztIHCiCo,Bryan Downing Live Stream LIVE STREAM building Python for quant trading in Ubuntu Linux,"OMG 2.5h complete pain in the ass,
+Visual Studio has native Python support...."
