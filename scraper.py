@@ -81,12 +81,15 @@ def get_video_comments(service, **kwargs):
     comments = []
     results = service.commentThreads().list(**kwargs).execute()
 
+    i = 0
+    max_pages = 5
     while results:
         for item in results['items']:
             comment = item['snippet']['topLevelComment']['snippet']['textDisplay']
             comments.append(comment)
 
-        if 'nextPageToken' in results:
+        if 'nextPageToken' in results and i<max_pages:
+            i += 1
             kwargs['pageToken'] = results['nextPageToken']
             results = service.commentThreads().list(**kwargs).execute()
         else:
