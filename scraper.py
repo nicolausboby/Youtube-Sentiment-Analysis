@@ -1,6 +1,7 @@
 import google.oauth2.credentials
 import pickle
 import os
+import csv
  
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -11,8 +12,17 @@ CLIENT_SECRETS_FILE = "client_secret.json"
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
+OUT_PATH = 'Data/'
 
- 
+
+def write_to_csv(path, comments):
+    with open(path + 'comments.csv', 'w', encoding="utf-8") as comments_file:
+        comments_writer = csv.writer(comments_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        comments_writer.writerow(['Video ID', 'Title', 'Comment'])
+        for row in comments:
+            comments_writer.writerow(list(row))
+
+
 def get_authenticated_service():
     credentials = None
     if os.path.exists('token.pickle'):
@@ -56,13 +66,15 @@ def get_videos(service, **kwargs):
 
 def search_videos_by_keyword(service, **kwargs):
     results = get_videos(service, **kwargs)
+    final_result = []
     for item in results:
         title = item['snippet']['title']
         video_id = item['id']['videoId']
         comments = get_video_comments(service, part='snippet', videoId=video_id, textFormat='plainText')
-        
-        print(comments)
+        final_result.extend([(video_id, title, comment) for comment in comments])
 
+    write_to_csv(OUT_PATH, final_result)
+ 
 
 
 def get_video_comments(service, **kwargs):
