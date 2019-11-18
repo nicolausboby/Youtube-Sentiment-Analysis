@@ -5,7 +5,8 @@ _____
 
 ## Scraper
 how to run:
- 1. pip install -r "requirements.txt"
- 2. create [Project and Youtube Data API](https://console.developers.google.com/projectselector2/apis/dashboard) or use .json.example
- 3. py scraper.py
- 4. enter keyword
+ 1. Change directory to folder scraper `cd scraper`
+ 2. Install required dependencies `pip install -r "requirements.txt"`
+ 3. create [Project and Youtube Data API](https://console.developers.google.com/projectselector2/apis/dashboard) or use .json.example
+ 4. Run the scraper `py scraper.py`
+ 5. enter keyword
